@@ -72,7 +72,7 @@ The datasets for these four domains contain 100M training transitions each and c
 
 ### OCBench
 
-We use six lite datasets from OCBench: `block-lite-single-task1-v0`, `block-lite-double-{task1,task2}-v0`, and
+We use 6 lite datasets from OCBench: `block-lite-single-task1-v0`, `block-lite-double-{task1,task2}-v0`, and
 `chamber-lite-easy-{task1,task2,task3}-v0`. Download all training and validation shards for these tasks from
 [Hugging Face](https://huggingface.co/datasets/seohongpark/ocbench/tree/main/lite).
 Each training shard contains 10K trajectories, with 1K trajectories in its matching validation shard.
@@ -168,7 +168,7 @@ bash sbatch/ivf_ocbench.sh
 ```
 
 Each script submits one job array, with one experiment per task. OGBench runs all 20 tasks at 10%, 25%, 50%, and
-100% data budgets; OCBench runs all six tasks at 25% and 100%. Both use seeds 100, 200, 300, and 400, giving 320
+100% data budgets; OCBench runs all 6 tasks at 25% and 100%. Both use seeds 100, 200, 300, and 400, giving 320
 experiments per method on OGBench and 48 on OCBench.
 
 ### Baselines

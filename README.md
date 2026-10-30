@@ -9,6 +9,7 @@
       </h1>
       <br>
       <h2>
+        <a href="#" style="font-size:20px;">Paper</a> &emsp;
         <a href="https://chongyi-zheng.github.io/value-forcing/" style="font-size:20px;">Website</a>
       </h2>
     </summary>
@@ -238,5 +239,10 @@ This project is licensed under the [MIT License](LICENSE).
   title={Value Forcing: Aligning Return Distributions at All Noise Levels},
   author={Zheng, Chongyi and Zhou, Zhiyuan and Li, Qiyang and Eysenbach, Benjamin and Levine, Sergey},
   year={2026},
+  journal={arXiv preprint arXiv:TODO},
+  year={2026},
+  url={https://arxiv.org/abs/TODO}
 }
 ```
+
+Replace `ARXIV_ID` with the arXiv identifier when available.

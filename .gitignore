@@ -24,4 +24,3 @@ submitit/
 .agents/
 .venv/
 .sbatch/
-.pytest_cache/

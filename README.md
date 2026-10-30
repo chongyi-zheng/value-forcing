@@ -223,14 +223,6 @@ bash sbatch/implicit_c51_ocbench.sh
 bash sbatch/implicit_qc_ocbench.sh
 ```
 
-## Tests
-
-Run the regression tests in the installed environment:
-
-```bash
-JAX_PLATFORMS=cpu python -m unittest discover -s tests -v
-```
-
 ## Acknowledgments
 
 This codebase builds on [Q-Guided Flow](https://github.com/zhouzypaul/qgf) and [Value Flows](https://github.com/chongyi-zheng/value-flows).

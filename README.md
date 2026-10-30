@@ -244,5 +244,3 @@ This project is licensed under the [MIT License](LICENSE).
   url={https://arxiv.org/abs/TODO}
 }
 ```
-
-Replace `ARXIV_ID` with the arXiv identifier when available.
